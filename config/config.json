@@ -15,10 +15,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "username": "4dm1n157r470r",
+    "password": "4-v3ry-53cr37-p455w0rd",
+    "database": "mysqldatabase",
+    "host": "cloud1-sqlserver.database.windows.net",
     "dialect": "mysql"
   }
 }

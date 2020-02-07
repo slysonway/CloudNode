@@ -4,8 +4,16 @@ const fs = require('fs');
 const path = require('path');
 const Sequelize = require('sequelize');
 const basename = path.basename(__filename);
-const env = process.env.NODE_ENV || 'development';
-const config = require(__dirname + '/../config/config.json')[env];
+// const env = process.env.NODE_ENV || 'development';
+// const config = require(__dirname + '/../config/config.json')[env];
+const config = {
+    "username": process.env.DB_USER,
+    "password": process.env.DB_PWD,
+    "database": process.env.DB_NAME,
+    "host": process.env.DB_HOST,
+    "dialect": "mysql",
+    "port": process.env.DB_PORT
+}
 const db = {};
 
 let sequelize;
