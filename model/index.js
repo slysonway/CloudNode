@@ -12,8 +12,7 @@ const config = {
     "database": process.env.DB_NAME,
     "host": process.env.DB_HOST,
     "dialect": "mysql",
-    "port": process.env.DB_PORT,
-    "ssl": false
+    "port": process.env.DB_PORT
 }
 const db = {};
 
